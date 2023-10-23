@@ -73,7 +73,7 @@
             <blockquote>
                 This is a blockquote <!--otro tipo de citas-->
             </blockquote>
-            <table> <!--para tablas, contenido semántico-->
+            <table border="1"> <!--para tablas, contenido semántico-->
                 <thead>
                     <tr>
                         <th>Name</th> <!--th es en negrita-->
@@ -86,19 +86,40 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td>Manuel</td>
+                    <td rowspan="2">Manuel</td>
                     <td>González</td>
-                    <td>Álvarez</td>
+                    <td rowspan="2">Álvarez</td>
                     <td>22</td>
-                    <td>Spanish</td>
+                    <td rowspan="3">Spanish</td>
                     <td>22234556L</td>
+                </tr>
+                <tr>
+                    
+                    <td>Pinto</td>
+                    <td>20</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Adrián</td>
+                    <td>Pouso</td>
+                    <td>Pouso</td>
+                    <td>17</td>
+                    
+                    <td>56554323Z</td>
                 </tr>
                 <tr></tr>
                 <tr></tr>
                 </tbody>
                 <tfoot>
-
+                    <tr>
+                        <th>Cantidade</th>
+                        <td colspan="5">3</td>
+                    </tr>
                 </tfoot>
             </table>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <!--picsum-->
+            <img src="https://picsum.photos/id/1025/600/400" alt="">
+           <img src="https://picsum.photos/id/1033/600/400" alt="">
     </body>
 </html>
